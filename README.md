@@ -1,1 +1,1 @@
-# Animated-web-page
+# Awarded-webpage clone

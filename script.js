@@ -201,12 +201,11 @@ function time(){
             const minutes = now.getMinutes().toString().padStart(2, '0');
             const seconds = now.getSeconds().toString().padStart(2, '0');
 
-            const currentTime = `${hours}:${minutes} PM EST`;
+            const currentTime = `${hours}:${minutes}:${seconds} PM EST`;
             document.querySelector('#time').textContent = currentTime;
 }
 
-
-
+setInterval(time, 1000)
 time()
 hover_effect()
 rmv_cursor()

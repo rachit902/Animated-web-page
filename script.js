@@ -157,7 +157,7 @@ function image_effect() {
             rotate = dets.clientX;
             var diff = dets.clientY - e.getBoundingClientRect().top - 120
             e.firstElementChild.style.transform = `translate(${dets.clientX - 250}px, ${Math.floor(diff)}px)`
-            // e.firstElementChild.style.rotate = `${gsap.utils.clamp(-20, 20, differ * 0.1)}deg`
+            
         })
     });
 
